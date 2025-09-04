@@ -1,0 +1,51 @@
+/* Tema Golden Cloud (claro) */
+:root {
+  --gc-primary: #F5B400; /* laranja principal */
+  --gc-primary-dark: #E0A600; /* hover */
+  --gc-text: #1F2937; /* cinza-escuro */
+  --gc-muted: #6B7280; /* cinza médio */
+  --gc-bg: #FFFFFF; /* branco */
+  --gc-bg-soft: #FFFFFF; /* manter branco total */
+}
+
+/* Container principal */
+.main .block-container {
+  padding-top: 2.0rem;
+  padding-bottom: 2rem;
+}
+
+/* Títulos */
+h1, h2, h3, h4 {
+  color: var(--gc-text) !important;
+}
+
+/* Botão primário */
+.stButton>button {
+  background: var(--gc-primary) !important;
+  color: #111827 !important;
+  border: none !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+}
+.stButton>button:hover {
+  background: var(--gc-primary-dark) !important;
+}
+
+/* Áreas de texto */
+textarea {
+  background: var(--gc-bg) !important;
+  color: var(--gc-text) !important;
+  border-radius: 12px !important;
+  border: 1px solid #E5E7EB !important;
+}
+
+/* Sidebar branca */
+section[data-testid="stSidebar"] > div {
+  background: var(--gc-bg) !important;
+}
+section[data-testid="stSidebar"] * {
+  color: var(--gc-text) !important;
+}
+
+/* Textos suaves */
+.small, .caption { color: var(--gc-muted) !important; }
